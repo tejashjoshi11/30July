@@ -27,7 +27,7 @@ resource "aws_security_group" "allow_ssh" {
 
 # Create an EC2 instance
 resource "aws_instance" "example" {
-  ami           = "ami-0427090fd1714168b" # Replace with a valid AMI ID for your region
+  ami           = "ami-074be47313f84fa38" # Replace with a valid AMI ID for your region
   instance_type = "t2.micro"
   
   # Attach the security group
